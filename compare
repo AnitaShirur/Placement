@@ -1,0 +1,12 @@
+def compare(a,b,c):
+    
+    if((a<b)&(a<c)):
+        print("a is smallest")
+    elif(b<c):
+        print("b is smallest")
+    else:
+        print("c is smallest")
+x=int (input("enter a"))
+y=int (input("enter b"))
+z=int(input("enter c"))
+s=compare(x,y,z)        
