@@ -1,0 +1,8 @@
+def details():
+    name=input("enter server name:")
+    dbname=input("enter db name:")
+    username=input("enter user name:")
+    password=input("enter password:")
+    return "server name=%s;dbname=%s;user name=%s;password=%s"%(name,dbname,username,password)
+
+
