@@ -1,0 +1,13 @@
+def dictcs(d):
+    
+    d.items()
+    l=d.items()
+    cs=""
+    for i in l:
+        cs+="%s=%s;"%i
+        
+    return cs.strip(";")
+
+d={'a':'b','c':'d','e':'f','g':'h'}
+    
+    
