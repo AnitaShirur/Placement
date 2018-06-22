@@ -1,0 +1,26 @@
+class menu:
+    
+    def __init__(self):
+        self.items = {}
+    def additem(self,itemname,price):
+        self.items[itemname]=price
+    def show(self):
+         print(self.items)
+
+c=menu()
+c.additem("idli",30)
+c.additem("vada",40)
+c.show()
+
+class order:
+    def __init__(self):
+        self.items={}
+    def additems(self,itemname,quantity):
+        self.items[itemname]=quantity
+    def show(self):
+        print(self.items)
+
+d=order()
+d.additems("idli",2)
+d.additems("vada",4)
+d.show()
